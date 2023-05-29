@@ -1,0 +1,94 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    min-height: 50px;
+    height: 50px;
+}
+
+
+.rightSide ul{
+    display: flex;
+    margin-bottom: inherit;
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+.rightSide ul li{
+    /* margin-left: 35px; */
+    margin: 0px 14px;
+    cursor: pointer;
+}
+
+.rightSide ul li img{
+    width: 20px ;
+    height: 20px ;
+}
+
+.leftSide ul {
+    display: flex;
+    margin-bottom: inherit;
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+.leftSide ul li{
+    /* margin-right: 25px; */
+    margin: 0px 14px;
+    cursor: pointer;
+}
+
+.leftSide ul li img{
+    width: 20px;
+}
+.cloudRedBlue{
+    width: 60px !important;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.input_group_div{
+    width: 350px;
+    margin-right: 10px;
+}
+
+.center input:focus{
+    box-shadow: none;
+}
+.center input{
+    border: none !important;
+    font-size: 12px;
+    padding: 5px !important;
+}
+
+.center span{
+    cursor: pointer;
+}
+
+.center img{
+    width: 16px;
+}
+.setting_icon{
+    margin-right: 15px;
+
+}
+
+.setting_icon img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.drop_down select{
+    padding: 4px 0px;
+    border: 1px solid #e1dfdf;;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
