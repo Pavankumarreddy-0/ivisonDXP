@@ -1,0 +1,25 @@
+.dxpmenu {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 528px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.cardInnerImages {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+.side-menu {
+  margin-bottom: 5px;
+}
+.createText {
+  margin-bottom: 5px;
+}
+.menu-data {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,40 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 2px -3px 4px 0 rgba(43, 43, 43, 0.1);
+    background: #fff;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.leftSide ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: inherit;
+    list-style-type: none;
+    align-items: center;
+    padding-left: inherit;
+}
+.leftSide ul li{
+    margin: 0px 10px;
+}
+.leftSide ul li a{
+    padding: 5px 8px;
+    border: 1px solid #0b4a99;
+    border-radius: 50%;
+    font-size: 11px;
+    background: #f1f1f1;
+    align-items: center;
+}
+
+.fa-facebook{
+    padding: 5px 9px !important;
+}
+
+.rightSide p{
+    font-size: 12px;
+    margin-bottom: inherit;
+}
